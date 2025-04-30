@@ -1,0 +1,152 @@
+/* Main Container Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* Profile Header */
+.about-me-header {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.about-me-header h1 {
+  font-size: 2rem;
+  color: #1a73e8;
+  border-bottom: 3px solid #1a73e8;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* Profile Information Section */
+.profile-info {
+  width: 30%;
+  padding-right: 3rem;
+  margin-right: 2rem;
+}
+
+.profile-info h2 {
+  color: #1a73e8;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-item {
+  margin-bottom: 1rem;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.info-value {
+  margin: 0;
+}
+
+/* Skills Section */
+.skills-section {
+  margin-top: 2rem;
+}
+
+.skill-item {
+  margin-bottom: 1rem;
+}
+
+.skill-name {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #1a73e8;
+  border-radius: 5px;
+}
+
+/* Bio Section */
+.bio-section {
+  width: 60%;
+  padding-left: 3rem;
+  border-left: 2px solid #e0e0e0;
+  margin-left: 2rem;
+}
+
+.bio-content {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Other Skills Section */
+.other-skills {
+  width: 100%;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.other-skills h2 {
+  color: #1a73e8;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.other-skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.other-skills-list li {
+  background-color: #f0f7ff;
+  color: #1a73e8;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .profile-info, .bio-section {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  
+  .bio-section {
+    margin-top: 2rem;
+  }
+}

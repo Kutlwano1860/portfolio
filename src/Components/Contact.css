@@ -1,0 +1,26 @@
+.contact-mf {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d18a00;
+}
+
+.more-info {
+    margin-top: 20px;
+}
